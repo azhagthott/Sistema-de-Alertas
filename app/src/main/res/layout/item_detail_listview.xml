@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewNumberLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_number_lbl"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewUserLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_user_lbl"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewRegionLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_region_lbl"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewInitLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_init_time_lbl"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewStopLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_stop_time_lbl"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewDeltaTimeLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_delta_time_lbl"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewDeltaQueryLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_delta_query_lbl"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewDeltaDownloadLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_delta_download_lbl"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewSizeLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_size_lbl"
+                android:textSize="18sp" />
+
+            <TextView
+                android:lines="4"
+                android:id="@+id/textViewTransTimeLbl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_trans_time_lbl"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textViewNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_number"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewUser"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_user"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewRegion"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_region"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewInit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_init_time"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewStop"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_stop_time"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewDeltaTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_delta_time"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewDeltaQuery"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_delta_query"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewDeltaDownload"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_delta_download"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewSize"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_size"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textViewTransTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/item_list_view_trans_time"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settings_general">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_notifications_black"
+            android:key="key_allow_notification"
+            android:summary="@string/settings_allow_notification"
+            android:title="@string/settings_summary_allow_notification" />
+
+        <EditTextPreference
+            android:defaultValue="@string/url_data"
+            android:icon="@drawable/ic_cloud_download"
+            android:key="key_url"
+            android:summary="@string/settings_url"
+            android:title="@string/settings_summary_url" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settings_user">
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:icon="@drawable/ic_location_on"
+            android:key="key_at_zecovery"
+            android:summary="@string/settings_notification_at_zecovery"
+            android:title="@string/settings_summary_notification_at_zecovery" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">Alertas SIDCO</string>
+
+    <!-- menu items -->
+    <string name="action_graph">Graphs</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+
+    <!-- about activity -->
+    <string name="about_text">Esto es el about, descripcion de la App etc...</string>
+    <string name="about_image_view_text">logo Zecovery</string>
+
+
+    <!--list view lbl-->
+    <string name="item_list_view_number_lbl">Numero: </string>
+    <string name="item_list_view_user_lbl">Usuario: </string>
+    <string name="item_list_view_region_lbl">Region: </string>
+    <string name="item_list_view_init_time_lbl">Inicio: </string>
+    <string name="item_list_view_stop_time_lbl">Termino: </string>
+    <string name="item_list_view_delta_time_lbl">Delta: </string>
+    <string name="item_list_view_delta_query_lbl">Delta Query: </string>
+    <string name="item_list_view_delta_download_lbl">Delta descarga: </string>
+    <string name="item_list_view_size_lbl">Tamaño: </string>
+    <string name="item_list_view_trans_time_lbl">Tiempo de \ntransferencia: </string>
+
+
+    <!--list view items-->
+    <string name="item_list_view_number">24</string>
+    <string name="item_list_view_user">User</string>
+    <string name="item_list_view_region">Region</string>
+    <string name="item_list_view_init_time">Start time</string>
+    <string name="item_list_view_stop_time">Stop time</string>
+    <string name="item_list_view_delta_time">Time delta</string>
+    <string name="item_list_view_delta_query">Query delta</string>
+    <string name="item_list_view_delta_download">Download delta</string>
+    <string name="item_list_view_size">Size</string>
+    <string name="item_list_view_trans_time">Download delta / Size</string>
+
+    <string name="notification_title">[Ze]covery</string>
+    <string name="notification_ticker">Alerta!</string>
+    <string name="notification_text">Se ha detectado un alerta!</string>
+    <string name="notification_activity_title">Se ha detectado un alerta!</string>
+
+    <string name="status">Informe diario!</string>
+
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_activity_alert">Alert</string>
+
+    <!-- Settings category -->
+    <string name="settings_general">Preferencias</string>
+    <string name="settings_user">Usuario</string>
+
+    <!-- Settings summary  -->
+    <string name="settings_summary_allow_notification">Notificaciones</string>
+    <string name="settings_summary_url">Fuente de las alertas (URL)</string>
+    <string name="settings_summary_notification_at_zecovery">Notificarme solo en la oficina</string>
+
+    <!-- Settings title -->
+    <string name="settings_allow_notification">Avisame si hay una alerta</string>
+    <string name="settings_url">Ingrese la URL desde donde se leeran los datos,
+        \n por defect es "http://alvaro.desa.exec.cl/moe/SidcoAlerta/data.php?data_id=all"</string>
+    <string name="settings_notification_at_zecovery">Activar las notificaciones solo cuando me
+        encuentro cerca de Zecovery</string>
+
+    <string name="url_data">http://alvaro.desa.exec.cl/moe/SidcoAlerta/data.php?data_id=all</string>
+    <string name="title_activity_about">AboutActivity</string>
+    <string name="title_activity_graphics">GraphicsActivity</string>
+    <string name="title_activity_charts">ChartsActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+    <string name="google_app_id">502924488258</string>
+
+
+
+
+</resources>
